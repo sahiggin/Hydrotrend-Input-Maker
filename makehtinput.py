@@ -2,7 +2,7 @@
 """
 Created on Wed Oct 21 13:44:47 2015
 
-Hi Elchin! To test this, first change the two paths below in "temporary set up." 
+To test this function, first change the two paths below in "temporary set up." 
 Then run from command line: 
 >>python makehtinput.py 24.8044 87.9331 Farakka
 
@@ -15,12 +15,6 @@ If successful, this will create a number of files in the user home director:
     pointNameDEM.tif: (e.g., TeestaDEM.tif)
     plus associated dbf and projection files for each shapefile,
     plus the HydroTrend input file, HYDRO0.HYPS.
-
-To-Do list:
--The number one priority is to change the os.system calls to pyDEM. I couldn't get it installed on my windows system.
--Number two is to maybe clean up the way the main function is organized?
--The third would be to add all of the other desired input file functions
--Also, should this be a command line call that doesnt use "python xxx"? I thought that was what Mark said.  
 
 @author: Stephanie Higgins
 """
